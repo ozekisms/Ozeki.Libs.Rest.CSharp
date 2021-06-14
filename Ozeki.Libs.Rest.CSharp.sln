@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ozeki.Libs.Rest", "Ozeki.Libs.Rest\Ozeki.Libs.Rest.csproj", "{9A611553-C874-4985-B7BD-1DCF2810D801}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendSms", "SendSms\SendSms.csproj", "{0C8006F6-A253-4C71-B3CF-8A46E63C0831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendMultipleSms", "SendMultipleSms\SendMultipleSms.csproj", "{2FE61E61-4FE3-4AE1-9827-F0FCE4E77478}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendScheduledSms", "SendScheduledSms\SendScheduledSms.csproj", "{A49CDE45-6CCF-4C46-A9CA-D486BA2D5F17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveSms", "ReceiveSms\ReceiveSms.csproj", "{9D341411-CD4A-4400-841D-7CD8D038C695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeleteSms", "DeleteSms\DeleteSms.csproj", "{9A46C8FC-7A79-4424-82B6-78DB1A3307C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{7EA145B0-F54C-4832-B5FA-A3660F045046}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A611553-C874-4985-B7BD-1DCF2810D801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A611553-C874-4985-B7BD-1DCF2810D801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A611553-C874-4985-B7BD-1DCF2810D801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A611553-C874-4985-B7BD-1DCF2810D801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8006F6-A253-4C71-B3CF-8A46E63C0831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8006F6-A253-4C71-B3CF-8A46E63C0831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8006F6-A253-4C71-B3CF-8A46E63C0831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8006F6-A253-4C71-B3CF-8A46E63C0831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE61E61-4FE3-4AE1-9827-F0FCE4E77478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE61E61-4FE3-4AE1-9827-F0FCE4E77478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE61E61-4FE3-4AE1-9827-F0FCE4E77478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE61E61-4FE3-4AE1-9827-F0FCE4E77478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49CDE45-6CCF-4C46-A9CA-D486BA2D5F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49CDE45-6CCF-4C46-A9CA-D486BA2D5F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49CDE45-6CCF-4C46-A9CA-D486BA2D5F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49CDE45-6CCF-4C46-A9CA-D486BA2D5F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D341411-CD4A-4400-841D-7CD8D038C695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D341411-CD4A-4400-841D-7CD8D038C695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D341411-CD4A-4400-841D-7CD8D038C695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D341411-CD4A-4400-841D-7CD8D038C695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A46C8FC-7A79-4424-82B6-78DB1A3307C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A46C8FC-7A79-4424-82B6-78DB1A3307C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A46C8FC-7A79-4424-82B6-78DB1A3307C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A46C8FC-7A79-4424-82B6-78DB1A3307C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A611553-C874-4985-B7BD-1DCF2810D801} = {7EA145B0-F54C-4832-B5FA-A3660F045046}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0ED0C1C-1D6E-434F-AC63-38B56C9BDCA6}
+	EndGlobalSection
+EndGlobal

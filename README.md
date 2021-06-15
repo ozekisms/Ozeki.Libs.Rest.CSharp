@@ -1,6 +1,3 @@
-<H1>Example Github Readme.md with markup</H1>
-
-<pre>
 # C# sms library to send sms with http/rest/json
 
 This C# sms library enables you to **send sms** from C# with http requests. 
@@ -93,5 +90,3 @@ of using your mobile, is that it is quick to setup and it often allows you
 to [send sms free of charge] (https://android-sms-gateway.com/p_246-how-to-send-sms-free-of-charge.html).
 
 [Android SMS Gateway](https://android-sms-gateway.com)
-
-</pre>

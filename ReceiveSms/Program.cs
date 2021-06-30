@@ -20,9 +20,9 @@ namespace ReceiveSms
 
             Console.WriteLine(messages.Length + " messages downloaded from inbox.");
 
-            foreach (var msg in messages)
+            foreach (var message in messages)
             {
-                Console.WriteLine("From: " + msg.FromAddress + " Text: " + msg.Text);
+                Console.WriteLine(message);
             };
 
             Console.ReadKey();

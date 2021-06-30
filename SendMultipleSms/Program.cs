@@ -32,13 +32,11 @@ namespace SendMultipleSms
                 Text = "Hello, World 3"
             };
 
-            var messages = new Message[] { msg1, msg2, msg3 };
-
             var api = new MessageApi(configuration);
 
-            var results = api.Send(messages);
+            var result = api.Send({ msg1, msg2, msg3 });
 
-            Console.WriteLine(results.ToString());
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }

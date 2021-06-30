@@ -25,7 +25,7 @@ namespace SendScheduledSms
 
             var result = api.Send(msg);
 
-            Console.WriteLine(result.ToString());
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
